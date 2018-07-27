@@ -17,10 +17,10 @@ def speak_to_grandma(talk)
   love_g = "I LOVE YOU GRANDMA!"
   pleased = "I LOVE YOU TOO PUMPKIN!"
 
-  if talk == talk.upcase
+if talk == love_g
+  return pleased
+elsif talk == talk.upcase
     return heard
-  elsif talk == love_g
-    return pleased
   else
     return cant_hear
   end
