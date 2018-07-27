@@ -11,7 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma?(talk)
+def speak_to_grandma(talk)
   if talk == "Hi Nana, how are you?"
     return "HUH?! SPEAK UP, SONNY!"
   elsif talk ="Hi!"
