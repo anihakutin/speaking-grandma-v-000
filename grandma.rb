@@ -19,5 +19,6 @@ def speak_to_grandma(talk)
   elsif talk == talk.to_upcase
     return "NO, NOT SINCE 1938!"
   elsif talk == "I LOVE YOU GRANDMA!"
+    return "I LOVE YOU TOO PUMPKIN!"
   end
 end
