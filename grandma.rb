@@ -14,7 +14,12 @@
 def speak_to_grandma(talk)
   cant_hear = "HUH?! SPEAK UP, SONNY!"
   heard = "NO, NOT SINCE 1938!"
-  please = "I LOVE YOU TOO PUMPKIN!"
+  pleased = "I LOVE YOU TOO PUMPKIN!"
+
+  if talk == talk.upcase
+    return heard
+  elsif talk == pleased
+
 #shout
 
 
