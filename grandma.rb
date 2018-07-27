@@ -21,8 +21,7 @@ def speak_to_grandma(talk)
     return heard
   elsif talk == love_g
     return pleased
-
-#shout
-
-
+  else
+    return cant_hear
+  end
 end
