@@ -19,7 +19,8 @@ def speak_to_grandma(talk)
 
   if talk == talk.upcase
     return heard
-  elsif talk ==
+  elsif talk == love_g
+    return pleased
 
 #shout
 
